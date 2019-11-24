@@ -14,7 +14,7 @@ public class main {
     }
 
     public static int getIntX(){
-	return 5;
+	return 20;
     }
 
     private static int getIntY(){
