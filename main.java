@@ -8,7 +8,7 @@ public class main {
 
     private static void foo(){
 	Helper f = new Helper();
-        int x = f.getIntX();
+        int x = getIntX();
         int y = getIntY();
         graph(x, y);
     }
