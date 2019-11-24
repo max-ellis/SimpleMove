@@ -8,16 +8,16 @@ public class main {
 
     private static void foo(){
 	Helper f = new Helper();
-        int x = getIntX();
-        int y = getIntY();
+        int x = getX();
+        int y = getY();
         graph(x, y);
     }
 
-    public static int getIntX(){
+    public static int getX(){
 	return 20;
     }
 
-    private static int getIntY(){
+    private static int getY(){
         return 4;
     }
 
