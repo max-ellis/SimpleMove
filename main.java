@@ -31,7 +31,7 @@ class Helper {
 	}
 
     public static int getIntX(){
-	return 5;
+	return 20;
     }
 
 }
