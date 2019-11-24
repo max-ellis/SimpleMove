@@ -8,14 +8,11 @@ public class main {
 
     private static void foo(){
 	Helper f = new Helper();
-        int x = getIntX();
+        int x = f.getIntX();
         int y = getIntY();
         graph(x, y);
     }
 
-    public static int getIntX(){
-	return 5;
-    }
 
     private static int getIntY(){
         return 4;
@@ -33,5 +30,8 @@ class Helper {
 
 	}
 
+    public static int getIntX(){
+	return 20;
+    }
 
 }
