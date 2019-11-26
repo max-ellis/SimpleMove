@@ -31,7 +31,7 @@ class Helper {
 	return 20;
     }
 
-    private static int getY(){
+    public static int getY(){
         return 4;
     }
 
