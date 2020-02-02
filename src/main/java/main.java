@@ -10,7 +10,7 @@ public class main {
 	Helper f = new Helper();
         int x = f.getX();
         int y = f.getY();
-        f.graph(x, y);
+        f.print(x, y);
     }
 
 
@@ -32,7 +32,7 @@ class Helper {
         return 4;
     }
 
-    public static void graph(int a, int b){
+    public static void print(int a, int b){
         System.out.println(a*b);
     }
 
