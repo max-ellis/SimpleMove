@@ -10,14 +10,11 @@ public class main {
 	Helper f = new Helper();
         int x = f.getX();
         int y = f.getY();
-        graph(x, y);
+        f.graph(x, y);
     }
 
 
 
-    private static void graph(int a, int b){
-        System.out.println(a*b);
-    }
 }
 
 
@@ -33,6 +30,10 @@ class Helper {
 
     public static int getY(){
         return 4;
+    }
+
+    public static void graph(int a, int b){
+        System.out.println(a*b);
     }
 
 }
