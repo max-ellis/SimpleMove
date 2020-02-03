@@ -34,7 +34,7 @@ public class TestMain {
   @Test
   public void assertPrintTest() {
     Main main = new Main();
-    main.print(20, 4);
+    main.graph(20, 4);
     assertEquals("80\n", content.toString());
   }
 

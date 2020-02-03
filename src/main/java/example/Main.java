@@ -10,11 +10,11 @@ public class Main {
 	Helper f = new Helper();
         int x = f.getX();
         int y = f.getY();
-        print(x, y);
+        graph(x, y);
     }
 
 
-    public static void print(int a, int b){
+    public static void graph(int a, int b){
         System.out.println(a*b);
     }
 
