@@ -8,13 +8,18 @@ public class Main {
 
     private static void foo(){
 	Helper f = new Helper();
-        int x = f.getY();
+        int x = getFirstNum();
         int y = f.getSecondNumber();
-        graph(x, y);
+        print(x, y);
     }
 
-    public static void graph(int a, int b){
+    public static void print(int a, int b){
         System.out.println(a*b);
+    }
+
+    public static int getFirstNum(){
+	Helper f = new Helper();
+	return f.getSecondNumber()*5;
     }
 
 }
@@ -25,10 +30,6 @@ class Helper {
 	public static void Helper(){
 
 	}
-
-    public static int getY(){
-	return 20;
-    }
 
     public static int getSecondNumber(){
         return 4;

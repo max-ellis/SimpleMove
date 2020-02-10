@@ -18,11 +18,11 @@ public class TestMain {
   @Test
   public void assertEqualsTest() {
   Helper helper = new Helper();
-
+  Main m = new Main();
     int expectedX = 20;
     int expectedY = 4;
-    assertEquals(expectedX, helper.getY());
     assertEquals(expectedY, helper.getSecondNumber());
+    assertEquals(expectedX, m.getFirstNum());
     
   }
   
@@ -34,7 +34,7 @@ public class TestMain {
   @Test
   public void assertPrintTest() {
     Main helper = new Main();
-    helper.graph(20, 4);
+    helper.print(20, 4);
     assertEquals("80\n", content.toString());
   }
 
