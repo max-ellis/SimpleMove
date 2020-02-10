@@ -9,7 +9,7 @@ public class Main {
     private static void foo(){
 	Helper f = new Helper();
         int x = f.getX();
-        int y = f.getY();
+        int y = f.getSecondNumber();
         f.graph(x, y);
     }
 
@@ -27,7 +27,7 @@ class Helper {
 	return 20;
     }
 
-    public static int getY(){
+    public static int getSecondNumber(){
         return 4;
     }
 
