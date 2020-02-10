@@ -8,7 +8,7 @@ public class Main {
 
     private static void foo(){
 	Helper f = new Helper();
-        int x = f.getX();
+        int x = f.getY();
         int y = f.getSecondNumber();
         f.graph(x, y);
     }
@@ -23,7 +23,7 @@ class Helper {
 
 	}
 
-    public static int getX(){
+    public static int getY(){
 	return 20;
     }
 
