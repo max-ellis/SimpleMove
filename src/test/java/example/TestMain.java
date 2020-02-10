@@ -18,10 +18,10 @@ public class TestMain {
   @Test
   public void assertEqualsTest() {
   Helper helper = new Helper();
-
+  Main m = new Main();
     int expectedX = 20;
     int expectedY = 4;
-    assertEquals(expectedX, helper.getX());
+    assertEquals(expectedX, m.getX());
     assertEquals(expectedY, helper.getY());
     
   }
