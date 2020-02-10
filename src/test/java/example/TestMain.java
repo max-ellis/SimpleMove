@@ -21,7 +21,7 @@ public class TestMain {
   Main m = new Main();
     int expectedX = 20;
     int expectedY = 4;
-    assertEquals(expectedX, m.getX());
+    assertEquals(expectedX, m.getFirstNum());
     assertEquals(expectedY, helper.getY());
     
   }

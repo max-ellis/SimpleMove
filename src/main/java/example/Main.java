@@ -8,12 +8,12 @@ public class Main {
 
     private static void foo(){
 	Helper f = new Helper();
-        int x = getX();
+        int x = getFirstNum();
         int y = f.getY();
         f.graph(x, y);
     }
 
-    public static int getX(){
+    public static int getFirstNum(){
 	return 20;
     }
 
