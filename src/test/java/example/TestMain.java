@@ -15,28 +15,26 @@ public class TestMain {
   private final ByteArrayOutputStream content = new ByteArrayOutputStream();
   private final PrintStream originalOut = System.out;
 
-  @Test
-  public void assertEqualsTest() {
-  Helper helper = new Helper();
-  Main m = new Main();
-    int expectedX = 20;
-    int expectedY = 4;
-    assertEquals(expectedY, helper.getSecondNumber());
-    assertEquals(expectedX, m.getFirstNum());
-    
-  }
-  
   @Before
   public void setUpStream() {
     System.setOut(new PrintStream(content));
   }
 
   @Test
-  public void assertPrintTest() {
-    Main helper = new Main();
-    helper.print(20, 4);
-    assertEquals("80\n", content.toString());
+  public void assertIntTest() {
+    A a = new A();
+    int x = a.foo();
+    assertEquals(x, 20);
   }
+
+/*  @Test
+  public void assertValTest() {
+    Child1 child1 = new Child1();
+    int y = child1.barNew();
+    assertEquals(y, 20);
+  }
+*/
+
 
   @After
   public void restoreStream() {
