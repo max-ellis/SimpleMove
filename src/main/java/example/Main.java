@@ -14,7 +14,8 @@ public class Main {
     }
 
     public static int getFirstNum(){
-	return 20;
+	Helper f = new Helper();
+	return f.getY()*5;
     }
 
 }
