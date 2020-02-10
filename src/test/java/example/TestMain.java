@@ -33,8 +33,8 @@ public class TestMain {
 
   @Test
   public void assertPrintTest() {
-    Helper helper = new Helper();
-    Helper.graph(20, 4);
+    Main helper = new Main();
+    helper.graph(20, 4);
     assertEquals("80\n", content.toString());
   }
 
