@@ -6,7 +6,9 @@ public class main {
 		ClassA a = new ClassA();
 		ClassB b = new ClassB();
 		b.testMethod1();
+		ClassC c = new ClassC();
 		b.add();
+		c.testMethod2();
     }
 
 }
@@ -40,4 +42,19 @@ class ClassB {
 		int code = does;
 
 	}
+}
+
+
+class ClassC {
+
+	void testMethod2() {
+		int variableOne = 1;
+		int variableTwo = 2;
+
+		int somethingElse = variableOne * variableTwo;
+		int that = somethingElse;
+		int does = that * somethingElse;
+
+	}
+
 }
