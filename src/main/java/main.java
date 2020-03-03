@@ -22,8 +22,8 @@ class A {
 		int var4 = classB.add(var3, var3);
 	}
 
-	int method(int a) {
-		return a;
+	int method(int b) {
+		return b;
 
 	}
 
