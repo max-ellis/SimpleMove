@@ -19,7 +19,7 @@ class A {
 		B classB = new B();
 
 		int var3 = classB.method2(var1, variable2);
-		int var4 = classB.add(var3, var3);
+		int var4 = classB.method3(var3, var3);
 	}
 
 	int method(int a) {
@@ -42,7 +42,7 @@ class B {
 		return variable2;
 	}
 
-	int add(int a, int b) {
+	int method3(int a, int b) {
 		int var = a + b;
 
 		A classA = new A();
