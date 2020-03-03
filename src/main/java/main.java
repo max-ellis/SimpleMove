@@ -6,6 +6,7 @@ public class main {
 		ClassA a = new ClassA();
 		ClassB b = new ClassB();
 		a.testMethod1();
+		a.testMethod2();
 		b.add();
     }
 
@@ -24,6 +25,16 @@ class ClassA {
 		int code = does;
 	}
 
+	void testMethod2() {
+		int variableOne = 1;
+		int variableTwo = 2;
+
+		int somethingElse = variableOne * variableTwo;
+		int that = somethingElse;
+		int does = that * somethingElse;
+		int code = does;
+
+	}
 
 }
 
