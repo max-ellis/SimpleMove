@@ -4,7 +4,7 @@ public class main {
 
     public static void main(String args[]){
 		ClassA a = new ClassA();
-		ClasB b = new ClasB();
+		ClassB b = new ClassB();
 		a.testMethod1();
 		b.add();
 		int x = 2;
@@ -28,7 +28,7 @@ class ClassA {
 
 }
 
-class ClasB {
+class ClassB {
 
 	void add() {
 		int variable1 = 1;
