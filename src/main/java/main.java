@@ -7,7 +7,6 @@ public class main {
 		ClassB b = new ClassB();
 		a.testMethod1();
 		b.add();
-		int x = 2;
     }
 
 }
