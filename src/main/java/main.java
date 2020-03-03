@@ -3,51 +3,41 @@
 public class main {
 
     public static void main(String args[]){
-		A a = new A();
-		a.method1();
+		ClassA a = new ClassA();
+		ClassB b = new ClassB();
+		a.testMethod1();
+		b.add();
     }
 
 }
 
 
-class A {
+class ClassA {
 
-	void method1() {
-		int var1 = 0;
-		int variable2 = 5;
-		
-		B classB = new B();
+	void testMethod1() {
+		int variableOne = 1;
+		int variableTwo = 2;
 
-		int var3 = classB.method2(var1, variable2);
-		int var4 = classB.method3(var3, var3);
-	}
-
-	int method(int b) {
-		return b;
-
+		int somethingElse = variableOne + variableTwo;
+		int that = somethingElse;
+		int does = that + somethingElse;
+		int code = does;
 	}
 
 
 }
 
+class ClassB {
 
-class B {
+	void add() {
+		int variable1 = 1;
+		int variable2 = 2;
 
-	int method2(int a, int b) {
-		int variable2 = a + b;
+		int something = variable1;
+		int that = variable2;
+		int does = 0;
+		int code = that + does + something;
 
-		A classA = new A();
-
-		variable2 = classA.method(variable2);
-		return variable2;
 	}
 
-	int method3(int a, int b) {
-		int var = a + b;
-
-		A classA = new A();
-
-		var = classA.method(var);
-		return var + var;
-	}
 }
