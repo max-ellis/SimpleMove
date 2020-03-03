@@ -4,9 +4,8 @@ public class main {
 
     public static void main(String args[]){
 		ClassA a = new ClassA();
-		ClassB b = new ClassB();
-		a.testMethod2();
-		b.testMethod1();
+		B b = new B();
+		a.testMethod1();
 		b.add();
     }
 
@@ -15,7 +14,7 @@ public class main {
 
 class ClassA {
 
-	void testMethod2() {
+	void testMethod1() {
 		int variableOne = 1;
 		int variableTwo = 2;
 
@@ -28,7 +27,7 @@ class ClassA {
 
 }
 
-class ClassB {
+class B {
 
 	void add() {
 		int variable1 = 1;
@@ -39,16 +38,6 @@ class ClassB {
 		int does = 0;
 		int code = that + does + something;
 
-	}
-
-	void testMethod1() {
-		int variableOne = 1;
-		int variableTwo = 2;
-
-		int somethingElse = variableOne + variableTwo;
-		int that = somethingElse;
-		int does = that + somethingElse;
-		int code = does;
 	}
 
 }
